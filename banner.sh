@@ -14,10 +14,10 @@ logo="$(tput setaf 2)
 $(tput sgr0)"
 
 if [ `whoami` != "root" ]; then
-  echo "$logo"
-  echo "Run as root to update your motd."
+	echo "$logo"
+	echo "Run as root to update your motd."
 else
-  echo "$logo" > /etc/motd
-  /etc/init.d/bootlogs
-  echo "Updated MOTD. Log in to see the new logo."
+	echo "$logo" > /etc/motd
+	/etc/init.d/bootlogs
+	echo "Updated MOTD. Log in to see the new logo."
 fi
