@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Date: 24/07/2016
+# Author: AzagraMac
+# Version: 1.2
+# License: GPL
+#
+
 logo="$(tput setaf 2)
        .~~.   .~~.
       '. \ ' ' / .'$(tput setaf 1)
