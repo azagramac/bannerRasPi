@@ -28,3 +28,4 @@ else
 	/etc/init.d/bootlogs
 	echo "Updated MOTD. Log in to see the new logo."
 fi
+
